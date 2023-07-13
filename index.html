@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>減重計算機</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="img.png">
+    <form>
+        <h1 id="result">減重計算機</h1>
+        體重 <input type="text" name="weight" placeholder="(公斤)">
+        <p></p>
+        身高 <input type="text" name="height" placeholder="(cm)">
+        <p></p>
+        年齡 <input type="text" name="age" placeholder="">
+        <p></p>
+        性別 <select class="GB" name="gender">
+            <option value="">請選擇性別</option>
+            <option value="girl">女性</option>
+            <option value="boy">男性</option>
+        </select>
+        <p></p>
+        身體活動系數<select class="act" name="activity">
+            <option value=""></option>
+            <option value="1.2">久坐 | 沒啥運動</option>
+            <option value="1.375">輕量活動 | 每周運動1-3天</option>
+            <option value="1.55">中度活動量 | 每周運動3-5天</option> 
+            <option value="1.725">高度活動量 | 每周運動6-7天</option> 
+            <option value="1.9">非常高度活動量 | 無時無刻都在運動</option> 
+        </select> 
+        <p></p> 
+        目標減重 (kg) <input type="text" name="goal" placeholder=""> 
+        <p></p> 
+        <button type="submit" name="sub">面對現實😊
+        </button> 
+        <p></p>
+        
+    </form>
+
+<script src="index.js">
+
+</script> 
+</body> 
+</html>
+<!-- npm run dev -->

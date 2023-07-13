@@ -1,0 +1,18 @@
+body{
+    background-color: #F9F5E7;
+    color: rgb(188, 89, 89);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+input,button,select{height: 30px;
+    width: 150px;
+    color: #454545;
+}
+img{
+    height: 300px;
+}
+
+h1{align-items: center;}
